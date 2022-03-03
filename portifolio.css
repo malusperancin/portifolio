@@ -1,0 +1,80 @@
+body{
+    font-family: "MPLUSRounded";
+    margin: 0;
+    background-image: linear-gradient(200deg,#CA66FA,#873a81 ); 
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+    
+.header{
+display: flex;
+justify-content: space-evenly;
+font-weight: 900;
+color: white;
+border-bottom: rgba(245, 245, 245, 0.392)0.1px solid;
+
+
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 15%;
+    box-shadow: 0px 5px 30px rgb(120, 120, 120) ;
+}
+
+
+.imagem{
+    width: 300px;
+    height: 300px;
+}
+
+.title__name{
+    background: -webkit-linear-gradient(right,#CA66FA,#8f4189 ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0;
+}
+
+.right__about{
+    text-align: end;
+}
+
+.title__about{
+    margin-bottom: 35px;
+    margin-top: 55px;
+  
+}
+
+.text__about{
+    text-align: end;
+}
+
+
+.container__about{
+    display: flex;
+}
+
+.title__port{
+    margin: 0;
+}
+
+@font-face {
+    font-family: "MPLUSRounded";
+    src: url(src/fonts/MPLUSRounded1c-Regular.ttf);
+ }
+
+ @font-face {
+    font-family: "MPLUSRounded";
+    src: url(src/fonts/MPLUSRounded1c-Black.ttf);
+    font-weight: 900;
+ }
